@@ -1,26 +1,32 @@
-# EcommerceProject
+# Angular Ecommerce Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+This E-commerce project was developed using Angular and API using JSON server.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `npm install -g json-server` to run below server.
+- Run `json-server --watch db.json` for loading JSON server. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Seller
+- Seller LogIn/ Register (seller is a person who sells products.)
+- Add + Delete + Update Products
+- View Products
 
-## Build
+### User
+- User LogIn/ Register (User is a person who buys and views products.)
+- View Products
+- Add to Cart of any quantity
+- CheckOut Orders
+- View + cancel My orders
+- View Added to Cart Products,......
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Default User(without login)
+- Add to cart features but can't do without log in
+- View Products
+...................................
 
 ## Further help
 
