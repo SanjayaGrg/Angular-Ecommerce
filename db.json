@@ -1,0 +1,154 @@
+{
+  "seller": [
+    {
+      "name": "Sanjaya Kumar Gurung",
+      "email": "sanjaygurun.155@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Pranjal Piya",
+      "email": "pranjalp@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Tom Holland",
+      "email": "tom@gmail.com",
+      "password": "qw982416",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "Mery",
+      "email": "mery@gmail.com",
+      "password": "abc123",
+      "id": 5
+    },
+    {
+      "name": "Sita",
+      "email": "sita@gmail.com",
+      "password": "abc123",
+      "id": 6
+    },
+    {
+      "name": "Om",
+      "email": "om@gmail.com",
+      "password": "abc123",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone 14",
+      "price": "179999",
+      "color": "Red",
+      "category": "Mobile Phones",
+      "description": "This is Apple Product latest iphone series.",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 1
+    },
+    {
+      "name": "Samsung C7",
+      "price": "80000",
+      "color": "White",
+      "category": "Samsung Mobile",
+      "description": "An Samsung product",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBUQEBAPEA8PEBUPDxAQFRAQDw8PFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLjcBCgoKDg0OGA8NFSsZFR03LTc3KzQtListKys3Ky0rKzgvKzErLS8tOC0rNystKzcrKzcrNzMtKzA3LzM3Ky0rK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EAEcQAAIBAgIDCQ0FBwQDAQAAAAABAgMRBCESMUEFBiIyUWFxkbETFCM0UlNygYKSobLRM0JzwcIHFRYkYuLwY6LS8VTD4UT/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECUf/aAAwDAQACEQMRAD8A9xAAAwN9O69SloUcOl3et9+SuqVPU5W2ybySeWTeyzr4bc2mlfESnXqPNurJyV+ZPJdCRexWGpyxWk9J1IxVlloqK/7fWQYmVO9pOfqsAneuE8zT91C964TzVP3UQeB5anwF8Dy1PgBN3phfNU+pB3phPNU/dRD4HlqfAPA+VU+AE3emE81T91B3phPM0+pENqPLU+A5qly1Nj2bVcB/eeE8zT6kHeWE8zT91DLUuWp8BbU+Wp8AK+JwVBtQp0Kd5bdGN+hXWXO9nSX8LuHCK+7F7dCMV8Xmx+5sF3Wb8hKC/N9hqAUP3ZHypfAP3ZHypF5iMqMbdZ4bDUnXxFdUaMWk5zaSu9SW1vmQ/DwoTpxrQrqVKpFShUUo6E4vU0yLfdvao7o4fvetKcEpqrCdPR04TSaulJNPKUlmtvLmR4TcLCUcJTwac3Sw1tGUpS7ppvSvJySzbcp32ZhVruVHz0ffh9QcKXno+/H6lCW9/BK64aSvdaT+6s9hBX3O3PhdynOOjDSd3O6ppR/pvbOORBsRw6avGbaepppp2yefSV6VajJ6MK9OcvJhOnKWWvJO4mAq4aKWHpSumptJ90nfh1IyvN6uFCokr6oO2SMTcX9nu5mDrxxOHw8oVqeloSdSrNR0ouLspO3FbWfKB0Lpc7GuHOyZkbAjdFviTcZ7NLJPm0o2cenMvbl46Um6dVWnHU3ZN21p2yvqd1k0ymyemuHSntd4N7Xo6vg2BsAAAAAAAAABk1PGn6D7ImXjHw30mpU8afoPsiZOOfDfSBCKhtwuA+4XGDZS5M22klytuyXWBKmS1Hn7MflR5zvj/aFLCVp0lho4h05OMqjqSpU9Ja4xik7pPK7d7p6lkYy/bHU+/gaMlq4FapB5c9mB68mORh71t21jMNHExuoVHJJO2lCUXZwlbJvke1bOXXnVjFXlKMY6ryaiutgauBqRjUquUoxTks5NRV7as+guvHUdtakvbh9TOwi8NL1/pKe+x8CC53+Q0bnf9Hz1H34fUTv6j56j78Pqee0o5E0Y8w0d737R87S9+H1IJuhK7dSD0tfDjyNcv9TOVwms63c13gBFLuF2+6Qu73fdEnne+3+plJ4DCN304vgdzt3XLRvF6r6+DH1Iz9314aXq7CpRiuRE0bGG3PwlOUJwlFSpJqHhdJK7qSd03nnWqe9zK12WIh5cPej9TIoxXIi1TiuRAWnXh5cPeiMdeHlw96IiiuRCuK5EA11oeXHrRaoST7k001pzzWa1EVNxTT0E7Z52zy6B+FWcbJLwsvkiUbQAAAAAAAAAZVTxp+g+yJj43jvpNip40/QfZEx8dx30gQAJcLgKEOND8SHzKwlxJJ5NWvGSkr6tKLUlfmugPBd9W6SqVKtN2X85UU3t0VUnlfZnYx44FTqxpxS0nNpaK0VKmk3pNbNR2e+j9nGMr4qtXwcYTp1asqncZzjTrU5Sbck1LJxu3Zp2aZR3O/ZruxTnpd7QprbOdagopc9pN29QHoP7L8O6eBnB7MdKy5u4QOtlT0qkVdrwdRq1ld3p/lf1XMnelgZ0cNGlUs5qcp1JRvoTqOyThfNxSVtLbr1G0453zur2aumrrPUZ7m82erLl1qYP7aXtfpKO+/VD1l/BfbS9rtiZ+/D7nQ+0qOdpLImSGUVkSpFEtA6rceXAOawdr20VxJu7z1Qk1bk1I3dxXdW1dGsDL3yLw3Sl2FOgX980V3WN2+JyJu+duTmKWFWV3qXxexf5sTILtItwIox4U7JZXtkmlw0tTy1Mljfb6sorsWYEqFEQ9IBLEuHWcfxJfJAZYlw3Gj+JL5IAa4ABQAAAAAAGTU8afoPsiY+O476TZqeM+w+yJi498N9IEAggoCpjojBUwHOKetJ9IsacfJXUhqY5MCRAxqY+nrXSu0DSwP20va7YlDfkvs+h9poYH7aXRLtiUd+aype1+kUc9QWROkRYfV6ydICXCu0s8uBNetwkka25M7bYrZm112v/AJ1mPFGnufOzWf8A8IE3zKN4NO6tJNprXz9Zn0aiaS0ZZLZJJNvW+Lty6ka++PhQi3lZrNvlyMXDW2tJ8gGjKznJq1tJtXad83mnq/72lim1a2V73yztl26upcxTg1sdy1SYFiI9DIEiACWhxo/iS+SBGSUONH8SXyQA1wACgAAAAAAMiN++Hd3ylboyt8DFxvHfSbf/AOl9EuyJiY3jvpAguA1ioCbB201pJNZ5SaS1Pa8r9JanCHDV4Xbai1ZKNoN3WeWbS5LooDkBPPRtla9kvXo3v15FDE1JLVpWTg20r5aXCytfUWEAGHi6uJVNSj3ZvuMrpRk25SlKMXa3GV4PoRawdat35aXdu5qctekqMaap03F20bNuWnmpX13uaiFA2MF9tLol2xKm/OPg6b5Jtdav+Rbwf20va7YkO+6N8On5NSL61JfmQcxhdpZSKuE1l1IARcwsrFWxLRlmBrbqx08O+ZaXUc7SOmwzUo2ep5M52C0Z2f3ZaL9Tswqeky5TZVlT0ZOPI/hsJ6bAtwZKivBkyYEiHwdrNa1OTXT3OJGmSU9a9OXyRCNgAAoAAAAAADJlBLEO22Mpet2bMHGvhvpOgreM+w+xHPY3jvpAiBDRwCjkNTBsBwXGi3AchwxDgNjDPw0va7Yjt8EdLC1FyRUvdkn+RHRfhX7XbEt4iGnCUPLjKHWmvzIOIwrzRopGVhnqNeGoAsJF5j2iF6wNfB1DN3Thaq3slwvXqfYT4eZHugrpPkfwf+Iip7adKNTbHwc/VxX1DYCbkVkpOEuJUWi+Z7GT1aLjJxezVzooWLJIyIrBcgsqRPh83HnnLV6ESimXcHrh6cvliVG0AAUAAAAAABlVvGfYfYjnca+G+k6Ov4x7D7Ec3jXw30gRIUahbgPTC4wW4DkKNTC4EiFuMQ5sDWi/Cv2u2JcUyjN2qe92xJ9Mg5LFU9GtUjyTbXQ3dfBov4V3j0EW7kLVlLy4/FZdlgwMtgF2xXnEtWI5xAjpSHVpZETVhJyIpKZvUZqtDP7SHxRhQLmHqOL0lrXxAt6GwNEuQlGorrKW0Y6TWwCrolzBrOHpz+WIzRJcPrj+JL5IlRsAAFAAAAAAAZVd/wAz7D7Ec1jeO+k6Ov4z7L7InNY18N9IEaYXG3C4D7hcahQHJioYh1wJEx2wZEUDTxD8J65fpHqZBjXw/XL9IimQU92Y3gntg7+p5P8AIo4eVmaOKzi09qsZNJ9ayfSiK3IO6uK4lbA1b5F7RAqTpkMoF+UCGcAK8Yk0BuiOQEkZNO6bTLdLdO2U1fnRSEaA1o7o0iWlVUpQlHU5y+EIowe5mtuYrKn+JP5UVG+AAUAAAAAABj4jxn2X2ROaxvHfSdLifGfZfyxOZxvHfSBEIAlwHIcNQoDkxRlxbgSJjrkaY64F/dJ2mumf6CFTH7rvhLpn+kqqZFOrSMuTtP0s10rX8Oxl6pIzcZqy1rNdIFujUs7m5h6mkrnN0KqlHSXQ1yPai/gcTosg23EjnAmozUldD3ADPnAjsXalMrygAyI6waJJCIDYwNDBq3c/Tn8sSCNMs0MnD05/LEsG2AAVAAAAAAAY2K8Z9l/LE5nG8d9J02M8Z9l9iOYxvHfSBEKNTFQChcS4lwHIdcYmLcB6Y8jQ+4Fvdx8KPpT/AElFSLe774UfSn+gzoyIJJyKWJLMmVq4VQpV+5zv9yWU12M077U7p5prajKrxG4PGOD0ZZwerlj0AdNg8W1tNmhjE9Zy1Od807p6mXaNRkHSZMhnTM2liHyliOKYE3ciWFMrvFITv5IC+kOpceHpz+WJk1N0i/uXU0lTlyzqfkiwdCAAVAAAAAAAYuN8Z9l9iOYxnHfSdNjvGV6L7EcxjXw30gQ3FuMFAcFxAAUVCCoB6HDUOAsb43nH0p/oMuMjS3y64elP9BkQZBO2QVB9yOQVVqop1qZfmiGcAKmHxMoPm+BtYTdCD15P4dZkzokPcmtQHYU5prJp9GYrkcpSxE48vqLUN05ra/XmQbspsilNmT+9Jc3UI90Zc3UUabkdHuE/B0vTq9qODni5va+w7Teo33ChfXp1vmCOuAAKAAAAAAAw90PGF6L7EcvjeO+k6bdHxj2X2I5fGPhvpAiuKNC4DrhcRCgOTFQ1DkwHpj2RxJFqAl3za4elP9BjRZs75tcfSn+gzMPgqs+JBu+exZetkDLiMfXoyhLRnFxktaYwKjkhjiTNCWAg0BO5ljRFUAK3cEDw6LagO0QKDw6GuiX5QGxw8pO0U2BS0DtN668DQ9Ot8xzOI3OqwjpzpyUdWlk1nq1HTb2/saHp1u0I60AAoAAAAAADA3Tf8z7L+VHL4vjvpOm3UX8xez4r7EcziYvSeT18gELFDRfI+oNF8j6gFQ6w1RfI+pjlB8j6gAchNF8j6hyi+R9TAWJIhIwfI+pj9B21PqYD98uuPpVP/WbGGjCFKnJNLgqWk02uFGOu2ewSpuTHEN6UpR7nJ20bZ6Vr3v6KGfwjDZXq25LRIMHdvEadXS/oS+L+pRR1f8IQ89U92ILelDz0/diFcsCR1P8ACkPPT92P1Gz3sQiruu0uVxild6toHNWHaJ0X8OU//I+Ef+Qn8P0/P/7Y/wDIDAURdE31vfja6rNp5pqKaa94R7gLzr9z+4IwHE0dxaMXpuWei4O1r3jwr3W1asturaXHuEvO/wCz+4Y9wv8AVfuf3CzVlxWx2Il3u6blGTtFTkoOkpSVTSWjGytZWTdlf1XL+977Kh6dbtKstwv9V+5/caeCwypdwgm5Z1Xd5XbaEha6MAAqAAAAAAA5ndnGOGJ0b2vFO3qy+KZi190KyeU3boj9DV367lVZ6OJoRc50lo1Ka404XunHlau8tt+Yw8DjMPVVpVFTqLJxnwWn6wJP3lW8t9UfoL+8a3lvqj9Cz3lQ8/T95CrBUPP0/eQFX941vLfVH6C/vCt5b6o/QtLBUPP0+tAsHQ8/T60BV7/q+W+pfQcsdV8t9UfoWe86Pnoep37Be9KPno9gFbv6r5b6o/QcsbV8t/An72oefp9aDuFDz9PrQG9uRUTcv6lGa6GjSOVo42nQakq1OSvo2TzV9nOuw36G6FOSvf4prrAtiEPfdPyl8A77p+UgJSjXjSliIRqKLqRg6mH0rPhZxnKCf3kpJN67S6Sx31DykQ4l0ai0aihNJ6SUknaS1NcjzeYFlx5hrjzGf3phfJj70vqI8LhvJj1y+oDsGqUXUhSjGMYVHpqFlBVpcOastUuEm+eXLcnkMpSpRiowUYRWqMUoxW3JLnbB1o8qASQyQrqx5UMdRcq+ACMcpeFoJa0pNrmlLLsfUMdSCzbvyRjrk+T/AC5Y3Lwc3UdeqtFtWpw2xVrXa2ZZJbFe+bA1wAAAAAAAAADit+fHfooALErkFqElsACqfAssADLZ3A4s/SXYaUtT6GKAHMVNb6SKrqAAKv1Zf3v/AG3qf5gApHTonqcWIAZaRofEAAt0RaoABCxGAAMYyYoAaG4ut9BrgAAAAAAAAf/Z",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "120000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": 3
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "5000",
+      "color": "Black",
+      "category": "Shoes",
+      "description": "Best shoes for Running.",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "id": 4
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "7000",
+      "color": "Blue",
+      "category": "Jeans",
+      "description": "Confirmable jeans for man",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": 5
+    },
+    {
+      "name": "Truck",
+      "price": "700",
+      "color": "Red",
+      "category": "Toys",
+      "description": "A toy for 1-6 year old child",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Sanjaya Kumar Gurung",
+      "email": "sanjaygurun.155@gmail.com",
+      "password": "abc1234",
+      "id": 1
+    },
+    {
+      "name": "James",
+      "email": "jadhikari.594@gmail.com",
+      "password": "cc123456",
+      "id": 2
+    },
+    {
+      "name": "Sanjaya",
+      "email": "sanjaygurun.155@gmail.com",
+      "password": "abc1234",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "name": "iPhone 14",
+      "price": "179999",
+      "color": "Red",
+      "category": "Mobile Phones",
+      "description": "This is Apple Product latest iphone series.",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 2,
+      "userId": 2,
+      "productId": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "sanjaygurun.155@gmail.com",
+      "address": "Kathmandu",
+      "contact": "9816179957",
+      "totalPrice": 882097.9,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "email": "sanjaygurun.155@gmail.com",
+      "address": "Kathmandu",
+      "contact": "9816179957",
+      "totalPrice": 585786.85,
+      "userId": 2,
+      "id": 6
+    }
+  ]
+}

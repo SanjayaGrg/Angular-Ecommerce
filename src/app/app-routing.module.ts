@@ -1,7 +1,68 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { HomeComponent } from './home/home.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { SearchComponent } from './search/search.component';
+import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
+import { SellerAuthGuard } from './seller-auth.guard';
+import { SellerHomeComponent } from './seller-home/seller-home.component';
+import { SellerUpdateProductComponent } from './seller-update-product/seller-update-product.component';
+import { SellerComponent } from './seller/seller.component';
+import { UserAuthComponent } from './user-auth/user-auth.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: "",
+    component: HomeComponent
+  },
+  {
+    path: "seller-auth",
+    component: SellerComponent
+  },
+  {
+    path: "seller-home",
+    component: SellerHomeComponent,
+    canActivate: [SellerAuthGuard]
+  },
+  {
+    path: 'app-seller-add-product',
+    component: SellerAddProductComponent,
+    canActivate: [SellerAuthGuard]
+  },
+  {
+    path: 'app-seller-update-product/:id',
+    component: SellerUpdateProductComponent,
+    canActivate: [SellerAuthGuard]
+  },
+  {
+    path: 'search/:query',
+    component: SearchComponent,
+  },
+  {
+    path: 'details/:productId',
+    component: ProductDetailsComponent
+  },
+  {
+    path: 'user-auth',
+    component: UserAuthComponent
+  },
+  {
+    path: 'cart-page',
+    component: CartPageComponent
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent
+  },
+  {
+    path: 'my-orders',
+    component: MyOrdersComponent
+  }
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

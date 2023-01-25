@@ -1,0 +1,25 @@
+.checkout h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.checkout h4 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* 
+.shipping-address {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+} */
+
+.desc {
+    text-align: center;
+    margin-top: 20px;
+}

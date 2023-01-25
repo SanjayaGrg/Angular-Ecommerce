@@ -1,0 +1,29 @@
+.serach-item {
+    margin: 25px auto;
+    width: 800px;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.serach-item img {
+    width: 100%;
+    object-fit: contain;
+    height: 150px;
+}
+
+.serach-item a {
+    text-decoration: none;
+}
+
+.details h6 {
+    font-size: 24px;
+    color: blueviolet;
+}
+
+.details p {
+    margin: 5px;
+}
+
+.details span {
+    margin-right: 10px;
+}
